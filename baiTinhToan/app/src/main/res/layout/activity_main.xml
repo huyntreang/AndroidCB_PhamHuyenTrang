@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="80dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/size20sp"
+            android:id="@+id/txtSoA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số A: ">
+        </TextView>
+        <EditText
+            android:textSize="@dimen/size20sp"
+            android:id="@+id/edtSoA"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="@dimen/size20sp"
+            android:id="@+id/txtSoB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Số B: ">
+        </TextView>
+        <EditText
+            android:textSize="@dimen/size20sp"
+            android:id="@+id/edtSoB"
+            android:layout_marginLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:textSize="@dimen/size30sp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <Button
+        android:id="@+id/tinhTong"
+        android:background="@drawable/custom_btn"
+        android:text="Tổng 2 số"
+        android:textSize="@dimen/size20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/tinhHieu"
+        android:layout_marginTop="@dimen/size10sp"
+        android:background="@drawable/custom_btn"
+        android:text="Hiệu 2 số"
+        android:textSize="@dimen/size20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/tinhTich"
+        android:layout_marginTop="@dimen/size10sp"
+        android:background="@drawable/custom_btn"
+        android:text="Tích 2 số"
+        android:textSize="@dimen/size20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/tinhThuong"
+        android:layout_marginTop="@dimen/size10sp"
+        android:background="@drawable/custom_btn"
+        android:text="Thương 2 số"
+        android:textSize="@dimen/size20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:id="@+id/tinhUCLN"
+        android:layout_marginTop="@dimen/size10sp"
+        android:background="@drawable/custom_btn"
+        android:text="Ước chung lớn nhất"
+        android:textSize="@dimen/size20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/btntThoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size10sp"
+        android:text="Thoát chương trình"
+        android:textColor="@color/yellow"
+        android:background="@drawable/custom_btn"
+        android:textSize="@dimen/size20sp"></Button>
+</LinearLayout>
