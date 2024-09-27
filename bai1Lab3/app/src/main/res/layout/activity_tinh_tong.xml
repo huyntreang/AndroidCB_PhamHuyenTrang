@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_margin="30sp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TinhTong">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/tvSoA"
+            android:text="Số A: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:textSize="18dp"
+            android:id="@+id/edSoA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="18dp"
+            android:id="@+id/tvSoB"
+            android:text="Số B: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+        <EditText
+            android:textSize="18dp"
+            android:id="@+id/edSoB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="8dp"
+            android:id="@+id/btnTinhTong"
+            android:text="Tính tổng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:layout_marginRight="8dp"
+            android:id="@+id/btnBack"
+            android:text="Trở vể"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+        <Button
+            android:id="@+id/btnThoat"
+            android:text="Thoát"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+</LinearLayout>
